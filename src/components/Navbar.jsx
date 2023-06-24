@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-full flex justify-between items-center max-w-5xl mx-auto'>
         <Link to="/" className='flex items-center gap-2' onClick={() => { setActive(""); window.scrollTo(0, 0); }}>
           <img src={logo} alt="Logo" className='w-9 h-9 object-contain' />
           <p className='text-white text-[14px] font-bold cursor-pointer flex'>Adetunji &nbsp; <span className="sm:block hidden">| Adeyemi</span></p>
@@ -42,7 +42,7 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)} 
           />
 
-          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 bg-black absolute top-16 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-l`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => (
                 <li 

@@ -46,10 +46,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, similique totam! Eveniet, sint eligendi asperiores minima repellendus nemo corrupti laborum at, ad exercitationem unde repellat, voluptatem corporis animi omnis recusandae?\ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi cupiditate ducimus voluptatum fuga deserunt ipsum tenetur odio? Ipsa, voluptates.
+        I'm a skilled software developer with experience in TypeScript and
+        JavaScript, and expertise in frameworks like React.Js, Next.js, TailwindCSS and
+        other css frameworks. <br /> I'm a quick learner and I collaborate closely with clients/devs to
+        create efficient, scalable, and user-friendly solutions that solve
+        real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap justify-evenly">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
