@@ -10,9 +10,6 @@ import {
     tailwind,
     git,
     figma,
-    carrent,
-    jobit,
-    tripguide,
     github,
     spaceville,
     ilorin,
@@ -23,6 +20,13 @@ import {
     firebase,
     jquery,
     sass,
+    experienceOne,
+    exerienceTwo,
+    exerienceThree,
+    exerienceFour,
+    exerienceFive,
+    exerienceSeven,
+    exerienceNine,
 } from "../assets";
 
 export const navLinks = [
@@ -217,93 +221,200 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "He came through when I needed him the most & he also delivered accurately",
+        name: "Babatunde Tosin",
+        designation: "CEO",
+        company: "Spaceville",
+        image: "https://randomuser.me/api/portraits/lego/7.jpg",
     },
     {
         testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I've never met a web developer who truly cares about their clients' success like Tunji does.",
+        name: "Adeyemi John",
+        designation: "",
+        company: "",
+        image: "https://randomuser.me/api/portraits/lego/5.jpg",
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Art Hotel",
         description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to book",
         tags: [
-        {
-            name: "react",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "mongodb",
-            color: "green-text-gradient",
-        },
-        {
-            name: "tailwind",
-            color: "pink-text-gradient",
-        },
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "gsap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "sass",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "framer-motion",
+                color: "green-text-gradient",
+            },
+            {
+                name: "swiperjs",
+                color: "pink-text-gradient",
+            },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: experienceOne,
+        source_code_link: "https://github.com/tunny17/arthotel",
+        live_link: "https://arthotel.netlify.app/"
     },
     {
-        name: "Job IT",
+        name: "TunnyStore",
         description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A fullstack E-commerce Website created with NextJs and Sanity as it's backend and Paystack for payment gateway.",
         tags: [
-        {
-            name: "react",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "restapi",
-            color: "green-text-gradient",
-        },
-        {
-            name: "scss",
-            color: "pink-text-gradient",
-        },
+            {
+                name: "NextJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Sanity",
+                color: "green-text-gradient",
+            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: exerienceTwo,
+        source_code_link: "https://github.com/tunny17/ecommerce-store",
+        live_link:"https://tunnystore.netlify.app/"
     },
     {
-        name: "Trip Guide",
+        name: "Spaceville",
         description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Simple Landing page for Spaceville Ltd Construction Company that shows ther services being rendered.",
         tags: [
         {
-            name: "nextjs",
+            name: "ReactJs",
             color: "blue-text-gradient",
         },
         {
-            name: "supabase",
+            name: "SwiperJs",
             color: "green-text-gradient",
         },
         {
-            name: "css",
+            name: "Video-React",
             color: "pink-text-gradient",
         },
+        {
+            name: "React Locomotive Scroll",
+            color: "green-text-gradient",
+        },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: exerienceThree,
+        source_code_link: "https://github.com/tunny17/construction",
+        live_link: "https://tunnyconstruction.netlify.app/"
+    },
+    {
+        name: "Shopmora",
+        description:
+        "A Landing page for a small scale fashion business.",
+        tags: [
+        {
+            name: "ReactJs",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "Gsap",
+            color: "green-text-gradient",
+        },
+        {
+            name: "Styled Components",
+            color: "pink-text-gradient",
+        },
+        {
+            name: "Framer Motion",
+            color: "green-text-gradient",
+        },
+        ],
+        image: exerienceFour,
+        source_code_link: "https://github.com/tunny17/Shopmora",
+        live_link: "https://shopmora-co.netlify.app/"
+    },
+    {
+        name: "Cryptoverse",
+        description:
+        "A Simple Cryptocurrency platform that shows the status, news and links of cryptocurrencies around the world.",
+        tags: [
+        {
+            name: "ReactJs",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "Redux",
+            color: "green-text-gradient",
+        },
+        {
+            name: "Axios",
+            color: "pink-text-gradient",
+        },
+        {
+            name: "ChartJs",
+            color: "green-text-gradient",
+        },
+        ],
+        image: exerienceFive,
+        source_code_link: "https://github.com/tunny17/cryptoverse",
+        live_link: "https://tunnycrypto.netlify.app/"
+    },
+    {
+        name: "Tunnymedia",
+        description:
+        "A Simple replica of Youtube.",
+        tags: [
+        {
+            name: "ReactJs",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "React Player",
+            color: "green-text-gradient",
+        },
+        {
+            name: "Axios",
+            color: "pink-text-gradient",
+        },
+        {
+            name: "Material UI",
+            color: "green-text-gradient",
+        },
+        ],
+        image: exerienceSeven,
+        source_code_link: "https://github.com/tunny17/youtube_clone",
+        live_link: "https://tunnymedia.netlify.app/"
+    },
+    {
+        name: "NFT Marketplace",
+        description:
+        "A Simple NFT marketplace",
+        tags: [
+        {
+            name: "HTML",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "CSS",
+            color: "green-text-gradient",
+        },
+        {
+            name: "Axios",
+            color: "pink-text-gradient",
+        },
+        {
+            name: "Material UI",
+            color: "green-text-gradient",
+        },
+        ],
+        image: exerienceNine,
+        source_code_link: "https://github.com/tunny17/nft-marketplace",
+        live_link: "https://tunnymarketplace.netlify.app/",
     },
 ];
 
