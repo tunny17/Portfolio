@@ -46,18 +46,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React.Js, Next.js, TailwindCSS and
-        other css frameworks. <br /> I'm a quick learner and I collaborate closely with clients/devs to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a a dedicated and results-driven software developer with over 3 years of experience of creating engaging and user-friendly web experiences. I possess a strong foundation in frontend technologies such as HTML, CSS, JavaScript and their frameworks like React.Js, Next.js, SvelteJs, TailwindCSS etc. My goal is and has always been to combine my technical expertise with a creative approach to deliver seamless and visually appealing websites and applications.<br /> I'm a quick learner and I collaborate closely with clients/devs to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap justify-evenly">
+      {/* <div className="mt-20 flex flex-wrap justify-evenly">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   )
 }
