@@ -33,16 +33,20 @@ import {
 
 export const navLinks = [
   {
-    id: 'about',
+    id: '#about',
     title: 'About',
   },
   {
-    id: 'work',
+    id: '#work',
     title: 'Work',
   },
   {
-    id: 'contact',
+    id: '#contact',
     title: 'Contact',
+  },
+  {
+    id: 'https://docs.google.com/document/d/11V7Ge0x6a8ALjSCJDifR3l-uqw7KThhu/edit?usp=sharing&ouid=109709102863244755606&rtpof=true&sd=true',
+    title: 'Resume',
   },
 ];
 
