@@ -16,10 +16,12 @@ import {
   zuri,
   hng,
   shopmora,
+  classroomio,
   bootstrap,
   firebase,
   sass,
   svelte,
+  node,
   experienceOne,
   exerienceTwo,
   exerienceThree,
@@ -85,6 +87,10 @@ const technologies = [
     icon: svelte,
   },
   {
+    name: 'node',
+    icon: node,
+  },
+  {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
@@ -97,10 +103,6 @@ const technologies = [
     icon: figma,
   },
   {
-    name: 'bootstrap',
-    icon: bootstrap,
-  },
-  {
     name: 'firebase',
     icon: firebase,
   },
@@ -111,6 +113,21 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: 'Frontend Svelte Developer',
+    company_name: 'ClassroomIO',
+    icon: classroomio,
+    iconBg: '#383E56',
+    date: 'July 2023',
+    points: [
+      "Implimented a Teacher's profile page",
+      'Created a fallback error page & an empty state page',
+      'Wrote a validation schema that defines the expected type of data using zod.',
+      'Created a backend script to handle HTTP requests coming from the frontend to generate a pdf from the frontend data.',
+      'Designed a welcome modal for first time users.',
+      'Participated in code reviews and constructive feedbacks with team lead.',
+    ],
+  },
   {
     title: 'ReactJs Developer',
     company_name: 'Shopmora',

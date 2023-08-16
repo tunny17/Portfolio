@@ -21,12 +21,14 @@ import jquery from './tech/jquery.png';
 import materialui from './tech/materialui.png';
 import sass from './tech/sass.png';
 import svelte from './tech/svelte-icon.png';
+import node from './tech/node.png';
 
 import spaceville from './company/spaceville.png';
 import ilorin from './company/Ilorin.jpg';
 import zuri from './company/zuri.svg';
 import hng from './company/hng.jpg';
 import shopmora from './company/shopmora.png';
+import classroomio from './company/classroomio.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -81,6 +83,7 @@ export {
   zuri,
   hng,
   shopmora,
+  classroomio,
   carrent,
   jobit,
   tripguide,
@@ -90,4 +93,5 @@ export {
   materialui,
   sass,
   svelte,
+  node,
 };
