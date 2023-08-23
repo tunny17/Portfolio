@@ -260,6 +260,74 @@ const testimonials = [
 
 const projects = [
   {
+    name: 'Shopmora',
+    description: 'A Landing page for a small scale fashion business.',
+    tags: [
+      {
+        name: 'ReactJs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Gsap',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Styled Components',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Framer Motion',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: exerienceFour,
+    source_code_link: 'https://github.com/tunny17/Shopmora',
+    live_link: 'https://shopmora-co.netlify.app/',
+  },
+  {
+    name: 'NFT Marketplace Template',
+    description: 'A Simple NFT marketplace',
+    tags: [
+      {
+        name: 'HTML',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Axios',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Material UI',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: exerienceNine,
+    source_code_link: 'https://github.com/tunny17/nft-marketplace',
+    live_link: 'https://tunnymarketplace.netlify.app/',
+  },
+  {
+    name: 'TunnyStore',
+    description:
+      "A fullstack E-commerce Website created with NextJs and Sanity as it's backend and Paystack for payment gateway.",
+    tags: [
+      {
+        name: 'NextJs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Sanity',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: exerienceTwo,
+    source_code_link: 'https://github.com/tunny17/ecommerce-store',
+    live_link: 'https://tunnystore.netlify.app/',
+  },
+  {
     name: 'Art Hotel',
     description: 'Web-based platform that allows users to book',
     tags: [
@@ -289,24 +357,6 @@ const projects = [
     live_link: 'https://arthotel.netlify.app/',
   },
   {
-    name: 'TunnyStore',
-    description:
-      "A fullstack E-commerce Website created with NextJs and Sanity as it's backend and Paystack for payment gateway.",
-    tags: [
-      {
-        name: 'NextJs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Sanity',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: exerienceTwo,
-    source_code_link: 'https://github.com/tunny17/ecommerce-store',
-    live_link: 'https://tunnystore.netlify.app/',
-  },
-  {
     name: 'Spaceville',
     description:
       'A Simple Landing page for Spaceville Ltd Construction Company that shows ther services being rendered.',
@@ -331,31 +381,6 @@ const projects = [
     image: exerienceThree,
     source_code_link: 'https://github.com/tunny17/construction',
     live_link: 'https://tunnyconstruction.netlify.app/',
-  },
-  {
-    name: 'Shopmora',
-    description: 'A Landing page for a small scale fashion business.',
-    tags: [
-      {
-        name: 'ReactJs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Gsap',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Styled Components',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Framer Motion',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: exerienceFour,
-    source_code_link: 'https://github.com/tunny17/Shopmora',
-    live_link: 'https://shopmora-co.netlify.app/',
   },
   {
     name: 'Cryptoverse',
@@ -407,31 +432,6 @@ const projects = [
     image: exerienceSeven,
     source_code_link: 'https://github.com/tunny17/youtube_clone',
     live_link: 'https://tunnymedia.netlify.app/',
-  },
-  {
-    name: 'NFT Marketplace',
-    description: 'A Simple NFT marketplace',
-    tags: [
-      {
-        name: 'HTML',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'CSS',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Axios',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Material UI',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: exerienceNine,
-    source_code_link: 'https://github.com/tunny17/nft-marketplace',
-    live_link: 'https://tunnymarketplace.netlify.app/',
   },
 ];
 
