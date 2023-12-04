@@ -29,6 +29,7 @@ import zuri from './company/zuri.svg';
 import hng from './company/hng.jpg';
 import shopmora from './company/shopmora.png';
 import classroomio from './company/classroomio.png';
+import stuntMedia from './company/stuntMedia.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -83,6 +84,7 @@ export {
   zuri,
   hng,
   shopmora,
+  stuntMedia,
   classroomio,
   carrent,
   jobit,

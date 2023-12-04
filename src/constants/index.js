@@ -29,6 +29,7 @@ import {
   exerienceFive,
   exerienceSeven,
   exerienceNine,
+  stuntMedia,
 } from '../assets';
 
 export const navLinks = [
@@ -259,6 +260,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'StuntMedia',
+    description: 'A Landing page for a DMV Videographer.',
+    tags: [
+      {
+        name: 'ReactJs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Gsap',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Framer Motion',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: stuntMedia,
+    source_code_link: 'https://github.com/tunny17/stuntmedia',
+    live_link: 'https://stuntmedia.netlify.app/',
+  },
   {
     name: 'Shopmora',
     description: 'A Landing page for a small scale fashion business.',
