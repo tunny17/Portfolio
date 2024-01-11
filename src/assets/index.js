@@ -48,6 +48,8 @@ import exerienceTen from './experience/Screenshot (436).png';
 import exerienceEvelen from './experience/Screenshot (439).png';
 import exerienceTwelve from './experience/Screenshot (440).png';
 import exerienceThirteen from './experience/Screenshot (477).png';
+import express from './experience/Express.png';
+import c from './experience/C.png';
 
 export {
   experienceOne,
@@ -96,4 +98,6 @@ export {
   sass,
   svelte,
   node,
+  express,
+  c,
 };

@@ -11,13 +11,11 @@ import {
   git,
   figma,
   github,
-  spaceville,
   ilorin,
   zuri,
   hng,
   shopmora,
   classroomio,
-  bootstrap,
   firebase,
   sass,
   svelte,
@@ -30,24 +28,26 @@ import {
   exerienceSeven,
   exerienceNine,
   stuntMedia,
+  express,
+  c,
 } from '../assets';
 
 export const navLinks = [
   {
     id: '#about',
-    title: 'About',
+    title: 'Summary',
   },
   {
     id: '#work',
-    title: 'Work',
+    title: 'Experience',
+  },
+  {
+    id: '/public/AdeyemiAdetunji.pdf',
+    title: 'Resume',
   },
   {
     id: '#contact',
     title: 'Contact',
-  },
-  {
-    id: 'https://docs.google.com/document/d/11V7Ge0x6a8ALjSCJDifR3l-uqw7KThhu/edit?usp=sharing&ouid=109709102863244755606&rtpof=true&sd=true',
-    title: 'Resume',
   },
 ];
 
@@ -64,73 +64,103 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'HTML',
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'CSS',
   },
   {
     name: 'JavaScript',
-    icon: javascript,
   },
   {
     name: 'TypeScript',
-    icon: typescript,
   },
   {
     name: 'React JS',
-    icon: reactjs,
   },
   {
     name: 'Redux Toolkit',
-    icon: redux,
   },
   {
-    name: 'svelte',
-    icon: svelte,
+    name: 'svelte Js',
   },
   {
-    name: 'node',
-    icon: node,
+    name: 'Node Js',
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Express Js',
   },
   {
-    name: 'git',
-    icon: git,
+    name: '.NET',
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'Python',
+  },
+  {
+    name: 'supabase',
   },
   {
     name: 'firebase',
-    icon: firebase,
+  },
+  {
+    name: 'Bootstrap',
+  },
+  {
+    name: 'Tailwind CSS',
   },
   {
     name: 'sass',
-    icon: sass,
+  },
+  {
+    name: 'git',
+  },
+  {
+    name: 'figma',
   },
 ];
 
 const experiences = [
   {
-    title: 'Frontend Svelte Developer',
+    title: 'Backend NodeJs Developer',
+    company_name: 'Personal API',
+    icon: express,
+    iconBg: '#383E56',
+    date: 'January 2024',
+    points: [
+      'Developed a feature-rich CRUD API using Node.js and Express',
+      'Implemented user authentication and authorization functionalities for secure access to endpoints.',
+      'Successfully integrated MongoDB as the backend database, managing user data efficiently.',
+      'Designed and implemented the user model to ensure data consistency and integrity.',
+      'Implemented robust security measures, including password hashing and JWT-based authentication.',
+      'Ensured secure handling of user data and implemented standardized error responses for enhanced security.',
+    ],
+  },
+  {
+    title: 'C# Developer (.NET)',
+    company_name: 'A Simple Razor WebApp',
+    icon: c,
+    iconBg: '#383E56',
+    date: 'January 2024',
+    points: [
+      'Developed a web application using C# and Razor Pages in ASP.NET Core',
+      'Utilized the Razor Pages framework for building dynamic web pages, enhancing user interactivity.',
+      'Implemented a JSON-based product data service to dynamically load and display product information on the website.',
+      'Designed a robust Product model class to represent individual product entities, including features like images, URLs, and descriptions.',
+      'Configured the ASP.NET Core application, including HTTPs redirection, static file handling, and routing for a seamless user experience.',
+      'Integrated dependency injection for the JsonFileProductService to facilitate clean and maintainable code.',
+    ],
+  },
+  {
+    title: 'Open Source Svelte Developer',
     company_name: 'ClassroomIO',
     icon: classroomio,
     iconBg: '#383E56',
-    date: 'July 2023',
+    date: 'June 2023 - Present',
     points: [
-      "Implimented a Teacher's profile page",
-      'Created a fallback error page & an empty state page',
-      'Wrote a validation schema that defines the expected type of data using zod.',
-      'Created a backend script to handle HTTP requests coming from the frontend to generate a pdf from the frontend data.',
-      'Designed a welcome modal for first time users.',
-      'Participated in code reviews and constructive feedbacks with team lead.',
+      'Assisted with the implementation of innovative features, both on the frontend and backend, enhancing the overall functionality and user experience of the system.',
+      "Collaborated closely with the engineering team to identify and rectify existing bugs, ensuring the system's stability and reliability.",
+      'Contributed to the enhancement of system performance by optimizing and refining existing code, improving the overall efficiency of both frontend and backend processes.',
+      'Actively engaged in collaborative code reviews, providing and receiving constructive feedback to enhance the overall codebase and development process. This process contributed to the continuous improvement of the codebase and the overall development workflow.',
     ],
   },
   {
@@ -138,51 +168,12 @@ const experiences = [
     company_name: 'Shopmora',
     icon: shopmora,
     iconBg: '#383E56',
-    date: 'May 2023 - June 2023',
+    date: 'May 2023',
     points: [
-      'Built it using styled components and framer motion, gsap and locomotive scroll for animations.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participated in code reviews and constructive feedbacks with other developers.',
-    ],
-  },
-  {
-    title: 'ReactJs Developer',
-    company_name: 'Cryptocurrency Platform',
-    icon: github,
-    iconBg: '#383E56',
-    date: 'March 2023 - March 2023',
-    points: [
-      'Built UI using Ant Design (antD) as a UI library to enhance speed for building.',
-      'Used Redux to make API calls to CoinRanking (an API from Rapid API) and also to create endpoints which can easily be called as hooks to access the data gotten from the endpoint.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participated in code reviews and constructive feedbacks with other developers.',
-    ],
-  },
-  {
-    title: 'NextJs Developer',
-    company_name: 'Fullstack Ecommerce App',
-    icon: github,
-    iconBg: '#383E56',
-    date: 'Jan 2023 - Feb 2023',
-    points: [
-      'Built the UI using Next.js to improve performance and SEO.',
-      'Used Sanity as the cloud based API(backend) for easy integration and control of products.',
-      'Built a StateContext to control and share state data between components in the webApp',
-      'Used Paystack for payment integration',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participated in code reviews and constructive feedbacks with other developers.',
-    ],
-  },
-  {
-    title: 'ReactJs Developer',
-    company_name: 'Spaceville',
-    icon: spaceville,
-    iconBg: '#383E56',
-    date: 'Feb 2023 - Feb 2023',
-    points: [
-      'Developed the UI for the website using Figma.',
-      "Developed and maintained the company's landing page using React.js and other vanilla css.",
-      'Implemented responsive design and ensuring cross-browser compatibility.',
+      'Orchestrated the creation of an aesthetically pleasing and user-friendly frontend website for a small-scale fashion business, seamlessly blending creativity with functionality.',
+      'Implemented a responsive design strategy, ensuring that the website provides an optimal viewing experience across a variety of devices, fostering accessibility and user engagement.',
+      'Meticulously ensured cross-browser compatibility, guaranteeing a consistent and reliable performance for visitors using different web browsers.',
+      'Actively participated in collaborative code reviews, engaging with fellow developers to provide and receive constructive feedback. This collaborative effort enhanced the overall quality of the website and promoted a culture of continuous improvement.',
     ],
   },
   {
@@ -192,12 +183,26 @@ const experiences = [
     iconBg: '#fff',
     date: 'Jan 2023 - Jan 2023',
     points: [
-      'Assisted the team lead with creating the pitch deck for the hackathon’s presentation.',
-      "Assisted the team lead with the system's dashboard UI.",
-      'Built both the landing page and the system’s dashboard using react.',
-      'Pitched the product at the 2023 Ilorin Innovation Hub Hackathon.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participated in code reviews and constructive feedbacks with other developers.',
+      "Collaborated with the team lead in crafting a compelling pitch deck for the hackathon's presentation, showcasing key features and value propositions.",
+      "Played a pivotal role in designing the system's dashboard UI, contributing to an intuitive and visually appealing user interface.",
+      "Spearheaded the development of both the landing page and the system's dashboard, utilizing React to create dynamic and engaging web experiences.",
+      "Delivered a persuasive product pitch at the 2023 Ilorin Innovation Hub Hackathon, effectively communicating the project's vision and impact.",
+      'Implemented a responsive design strategy, ensuring a seamless user experience across various devices, and meticulously ensured cross-browser compatibility.',
+      'Actively participated in collaborative code reviews, offering and receiving constructive feedback, fostering continuous improvement within the development team.',
+    ],
+  },
+  {
+    title: 'NextJs Developer',
+    company_name: 'Fullstack Ecommerce App',
+    icon: github,
+    iconBg: '#383E56',
+    date: 'Jan 2023 - Feb 2023',
+    points: [
+      'Crafted a high-performance and SEO-friendly user interface using Next.js to elevate the overall user experience.',
+      'Orchestrated seamless integration and efficient control of products by harnessing Sanity as the cloud-based API for the backend.',
+      'Engineered a robust StateContext to facilitate streamlined control and seamless sharing of state data across various components within the web application.',
+      'Leveraged Paystack for seamless and secure payment integration, ensuring a smooth transactional experience for users.',
+      'Spearheaded the implementation of a responsive design approach, meticulously ensuring cross-browser compatibility for a consistent and accessible user interface.',
     ],
   },
   {
@@ -207,10 +212,11 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Nov 2022 - Jan 2023',
     points: [
-      'Assisted with the LowFi Figma design of the platform.',
-      'Built the Sign In page and used Formik for validation to aid easy storage of data for the backend.',
-      'Implemented responsive design and ensured cross-browser compatibility.',
-      'Participated in code reviews and constructive feedbacks with other developers.',
+      'Collaborated in the creation of LowFi Figma designs for the platform, contributing to the initial design phase and laying the foundation for a user-centric experience.',
+      'Took the lead in constructing the Sign-In page, leveraging Formik for validation, which not only enhanced user interactions but also facilitated seamless data storage for the backend.',
+      'Implemented a responsive design strategy, ensuring an optimal user experience across various devices, while also guaranteeing cross-browser compatibility for a wider audience reach.',
+      'Actively engaged in collaborative code reviews, fostering a culture of continuous improvement within the development team. This involved offering and receiving constructive feedback to enhance the overall code quality and team efficiency.',
+      'Demonstrated a commitment to quality assurance by actively participating in testing procedures, contributing to the delivery of a robust and error-free platform.',
     ],
   },
   {
@@ -220,10 +226,10 @@ const experiences = [
     iconBg: '#fff',
     date: 'Oct 2022 - Dec 2022',
     points: [
-      'Architected folder structure to enhance code readability and easy debugging.',
-      'Built the category page filled with different products and subproducts.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participated in code reviews with my teammates.',
+      'Orchestrated the establishment of a well-organized folder structure, enhancing code readability and facilitating efficient debugging processes for the development team.',
+      'Took charge of constructing the category page, featuring a diverse range of products and subproducts. This involved a meticulous approach to both design and functionality.',
+      "Ensured a seamless user experience by implementing a responsive design strategy, adapting the platform's layout to various devices, and rigorously verifying cross-browser compatibility.",
+      'Actively engaged in collaborative code reviews with teammates, fostering a collaborative environment where best practices and code quality were consistently upheld.',
     ],
   },
   {
@@ -233,9 +239,9 @@ const experiences = [
     iconBg: '#fff',
     date: 'Oct 2022 - Dec 2022',
     points: [
-      'Came up with task breakdowns to aid swift and concise project delivery.',
-      'Assisted with git version control and debugging',
-      'Participated in code reviews with my teammates.',
+      'Spearheaded the development process by creating comprehensive task breakdowns, streamlining project delivery for a more efficient and focused workflow.',
+      'Played a crucial role in implementing and maintaining effective git version control, ensuring codebase integrity and facilitating collaborative development among team members.',
+      'Actively participated in code reviews with teammates, contributing to a culture of continuous improvement and ensuring code quality standards were consistently met.',
     ],
   },
 ];
@@ -260,6 +266,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'TunnyAPI',
+    description: 'My Backend API',
+    tags: [
+      {
+        name: 'NodeJs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Express',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'bcrypt',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mongoDB',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'dotenv',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: express,
+    source_code_link: 'https://github.com/tunny17/tunnyAPI',
+    live_link: 'https://github.com/tunny17/tunnyAPI',
+  },
   {
     name: 'StuntMedia',
     description: 'A Landing page for a DMV Videographer.',
@@ -293,10 +328,7 @@ const projects = [
         name: 'Gsap',
         color: 'green-text-gradient',
       },
-      {
-        name: 'Styled Components',
-        color: 'pink-text-gradient',
-      },
+
       {
         name: 'Framer Motion',
         color: 'green-text-gradient',
@@ -305,6 +337,35 @@ const projects = [
     image: exerienceFour,
     source_code_link: 'https://github.com/tunny17/Shopmora',
     live_link: 'https://shopmora-co.netlify.app/',
+  },
+  {
+    name: 'Art Hotel',
+    description: 'Web-based platform that allows users to book',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'gsap',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'sass',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'framer-motion',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'swiperjs',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: experienceOne,
+    source_code_link: 'https://github.com/tunny17/arthotel',
+    live_link: 'https://arthotel.netlify.app/',
   },
   {
     name: 'NFT Marketplace Template',
@@ -348,35 +409,6 @@ const projects = [
     image: exerienceTwo,
     source_code_link: 'https://github.com/tunny17/ecommerce-store',
     live_link: 'https://tunnystore.netlify.app/',
-  },
-  {
-    name: 'Art Hotel',
-    description: 'Web-based platform that allows users to book',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'gsap',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'sass',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'framer-motion',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'swiperjs',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: experienceOne,
-    source_code_link: 'https://github.com/tunny17/arthotel',
-    live_link: 'https://arthotel.netlify.app/',
   },
   {
     name: 'Spaceville',
