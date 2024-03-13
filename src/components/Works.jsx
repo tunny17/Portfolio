@@ -25,8 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 150,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[310px] w-full'
-        id='#projects'>
+        className='bg-tertiary p-5 rounded-2xl sm:w-[310px] w-full'>
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -97,6 +96,7 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
+      <div id='projects' />
 
       <div className='mt-20 flex flex-wrap justify-between gap-y-5'>
         {projects.map((project, index) => (
