@@ -17,7 +17,7 @@ import {
   stuntMedia,
   express,
   c,
-} from '/assets';
+} from '/public/assets';
 
 export const navLinks = [
   {
