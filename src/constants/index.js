@@ -17,7 +17,7 @@ import {
   stuntMedia,
   express,
   c,
-} from '../../public/assets';
+} from '/assets';
 
 export const navLinks = [
   {
@@ -33,7 +33,7 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: '/public/AdeyemiAdetunji.pdf',
+    id: '/AdeyemiAdetunji.pdf',
     title: 'Resume',
   },
   {
