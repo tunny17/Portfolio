@@ -33,7 +33,7 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: '/AdeyemiAdetunji.pdf',
+    id: 'https://drive.google.com/file/d/1mPkL9NMYYqLuJzEmxq6YtxqiKsPXGxKZ/view?usp=sharing',
     title: 'Resume',
   },
   {
