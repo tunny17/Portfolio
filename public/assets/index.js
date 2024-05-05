@@ -13,6 +13,7 @@ import hng from './company/hng.jpg';
 import shopmora from './company/shopmora.png';
 import classroomio from './company/classroomio.png';
 import stuntMedia from './company/stuntMedia.png';
+import kidan from './company/kidan.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -55,6 +56,7 @@ export {
   live,
   menu,
   close,
+  kidan,
   // css,
   // figma,
   // git,

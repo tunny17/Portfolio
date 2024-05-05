@@ -1,10 +1,7 @@
 import {
   creator,
   web,
-  github,
   ilorin,
-  zuri,
-  hng,
   shopmora,
   classroomio,
   experienceOne,
@@ -16,6 +13,7 @@ import {
   exerienceNine,
   stuntMedia,
   express,
+  kidan,
   c,
 } from '/public/assets';
 
@@ -112,11 +110,59 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Open Source Fullstack Developer (Svelte Js & Node Js)',
+    company_name: 'ClassroomIO',
+    icon: classroomio,
+    link: 'https://github.com/rotimi-best/classroomio',
+    iconBg: '#383E56',
+    points: [
+      'Assisted with the implementation of innovative features, both on the frontend and backend, enhancing the overall functionality and user experience of the system.',
+      "Collaborated closely with the engineering team to identify and rectify existing bugs, ensuring the system's stability and reliability.",
+      'Contributed to the enhancement of system performance by optimizing and refining existing code, improving the overall efficiency of both frontend and backend processes.',
+      'Actively engaged in collaborative code reviews, providing and receiving constructive feedback to enhance the overall codebase and development process. This process contributed to the continuous improvement of the codebase and the overall development workflow.',
+    ],
+  },
+  {
+    title: 'ReactJs Developer',
+    company_name: 'Kidan',
+    icon: '',
+    link: 'https://kidanstore.vercel.app/',
+    iconBg: '#383E56',
+    points: [
+      'Orchestrated the creation of an aesthetically pleasing and user-friendly frontend website for a small-scale fashion business, seamlessly blending creativity with functionality.',
+      'Implemented a responsive design strategy, ensuring that the website provides an optimal viewing experience across a variety of devices, fostering accessibility and user engagement.',
+    ],
+  },
+  {
+    title: 'Frontend Developer (React Js)',
+    company_name: 'Mixed Fraction',
+    icon: '',
+    link: 'https://github.com/MixedFraction-devs',
+    iconBg: '#383E56',
+    points: [
+      'Developer user interfaces using Chakra UI and other component libraries, ensuring sleek and responsive designs that enhance user experience.',
+      'Actively participated in code reviews, debugging and pair programming sessions providing constructive feedback. This process contributed to the continuous improvement of the codebase and the overall development workflow.',
+      'Engaged in knowledge-sharing initiatives within the team, facilitating skill development and fostering a collaborative environment conducive to efficient problem-solving and project success.',
+      'Assisted with the implementation of features, both on the frontend and backend, enhancing the overall functionality and user experience of the platform.',
+    ],
+  },
+  {
+    title: 'ReactJs Developer',
+    company_name: 'Shopmora',
+    icon: shopmora,
+    link: 'https://shopmora.netlify.app/',
+    iconBg: '#383E56',
+    points: [
+      'Meticulously ensured cross-browser compatibility, guaranteeing a consistent and reliable performance for visitors using different web browsers.',
+      'Actively participated in collaborative code reviews, engaging with fellow developers to provide and receive constructive feedback. This collaborative effort enhanced the overall quality of the website and promoted a culture of continuous improvement.',
+    ],
+  },
+  {
     title: 'Backend NodeJs Developer',
     company_name: 'Personal API',
     icon: express,
+    link: '',
     iconBg: '#383E56',
-    date: 'January 2024',
     points: [
       'Developed a feature-rich CRUD API using Node.js and Express',
       'Implemented user authentication and authorization functionalities for secure access to endpoints.',
@@ -130,8 +176,8 @@ const experiences = [
     title: 'C# Developer (.NET)',
     company_name: 'A Simple Razor WebApp',
     icon: c,
+    link: '',
     iconBg: '#383E56',
-    date: 'January 2024',
     points: [
       'Developed a web application using C# and Razor Pages in ASP.NET Core',
       'Utilized the Razor Pages framework for building dynamic web pages, enhancing user interactivity.',
@@ -142,37 +188,11 @@ const experiences = [
     ],
   },
   {
-    title: 'Open Source Svelte Developer',
-    company_name: 'ClassroomIO',
-    icon: classroomio,
-    iconBg: '#383E56',
-    date: 'June 2023 - Present',
-    points: [
-      'Assisted with the implementation of innovative features, both on the frontend and backend, enhancing the overall functionality and user experience of the system.',
-      "Collaborated closely with the engineering team to identify and rectify existing bugs, ensuring the system's stability and reliability.",
-      'Contributed to the enhancement of system performance by optimizing and refining existing code, improving the overall efficiency of both frontend and backend processes.',
-      'Actively engaged in collaborative code reviews, providing and receiving constructive feedback to enhance the overall codebase and development process. This process contributed to the continuous improvement of the codebase and the overall development workflow.',
-    ],
-  },
-  {
-    title: 'ReactJs Developer',
-    company_name: 'Shopmora',
-    icon: shopmora,
-    iconBg: '#383E56',
-    date: 'May 2023',
-    points: [
-      'Orchestrated the creation of an aesthetically pleasing and user-friendly frontend website for a small-scale fashion business, seamlessly blending creativity with functionality.',
-      'Implemented a responsive design strategy, ensuring that the website provides an optimal viewing experience across a variety of devices, fostering accessibility and user engagement.',
-      'Meticulously ensured cross-browser compatibility, guaranteeing a consistent and reliable performance for visitors using different web browsers.',
-      'Actively participated in collaborative code reviews, engaging with fellow developers to provide and receive constructive feedback. This collaborative effort enhanced the overall quality of the website and promoted a culture of continuous improvement.',
-    ],
-  },
-  {
     title: 'ReactJs Developer',
     company_name: 'Ilorin Innovation Hub',
     icon: ilorin,
+    link: '',
     iconBg: '#fff',
-    date: 'Jan 2023 - Jan 2023',
     points: [
       "Collaborated with the team lead in crafting a compelling pitch deck for the hackathon's presentation, showcasing key features and value propositions.",
       "Played a pivotal role in designing the system's dashboard UI, contributing to an intuitive and visually appealing user interface.",
@@ -180,59 +200,6 @@ const experiences = [
       "Delivered a persuasive product pitch at the 2023 Ilorin Innovation Hub Hackathon, effectively communicating the project's vision and impact.",
       'Implemented a responsive design strategy, ensuring a seamless user experience across various devices, and meticulously ensured cross-browser compatibility.',
       'Actively participated in collaborative code reviews, offering and receiving constructive feedback, fostering continuous improvement within the development team.',
-    ],
-  },
-  {
-    title: 'NextJs Developer',
-    company_name: 'Fullstack Ecommerce App',
-    icon: github,
-    iconBg: '#383E56',
-    date: 'Jan 2023 - Feb 2023',
-    points: [
-      'Crafted a high-performance and SEO-friendly user interface using Next.js to elevate the overall user experience.',
-      'Orchestrated seamless integration and efficient control of products by harnessing Sanity as the cloud-based API for the backend.',
-      'Engineered a robust StateContext to facilitate streamlined control and seamless sharing of state data across various components within the web application.',
-      'Leveraged Paystack for seamless and secure payment integration, ensuring a smooth transactional experience for users.',
-      'Spearheaded the implementation of a responsive design approach, meticulously ensuring cross-browser compatibility for a consistent and accessible user interface.',
-    ],
-  },
-  {
-    title: 'ReactJs Developer',
-    company_name: 'Open Source',
-    icon: github,
-    iconBg: '#383E56',
-    date: 'Nov 2022 - Jan 2023',
-    points: [
-      'Collaborated in the creation of LowFi Figma designs for the platform, contributing to the initial design phase and laying the foundation for a user-centric experience.',
-      'Took the lead in constructing the Sign-In page, leveraging Formik for validation, which not only enhanced user interactions but also facilitated seamless data storage for the backend.',
-      'Implemented a responsive design strategy, ensuring an optimal user experience across various devices, while also guaranteeing cross-browser compatibility for a wider audience reach.',
-      'Actively engaged in collaborative code reviews, fostering a culture of continuous improvement within the development team. This involved offering and receiving constructive feedback to enhance the overall code quality and team efficiency.',
-      'Demonstrated a commitment to quality assurance by actively participating in testing procedures, contributing to the delivery of a robust and error-free platform.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Zuri Internship',
-    icon: zuri,
-    iconBg: '#fff',
-    date: 'Oct 2022 - Dec 2022',
-    points: [
-      'Orchestrated the establishment of a well-organized folder structure, enhancing code readability and facilitating efficient debugging processes for the development team.',
-      'Took charge of constructing the category page, featuring a diverse range of products and subproducts. This involved a meticulous approach to both design and functionality.',
-      "Ensured a seamless user experience by implementing a responsive design strategy, adapting the platform's layout to various devices, and rigorously verifying cross-browser compatibility.",
-      'Actively engaged in collaborative code reviews with teammates, fostering a collaborative environment where best practices and code quality were consistently upheld.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'HNG Internship',
-    icon: hng,
-    iconBg: '#fff',
-    date: 'Oct 2022 - Dec 2022',
-    points: [
-      'Spearheaded the development process by creating comprehensive task breakdowns, streamlining project delivery for a more efficient and focused workflow.',
-      'Played a crucial role in implementing and maintaining effective git version control, ensuring codebase integrity and facilitating collaborative development among team members.',
-      'Actively participated in code reviews with teammates, contributing to a culture of continuous improvement and ensuring code quality standards were consistently met.',
     ],
   },
 ];
@@ -249,7 +216,7 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Tunji does.",
-    name: 'Adeyemi John',
+    name: 'Raphael',
     designation: '',
     company: '',
     image: 'https://randomuser.me/api/portraits/lego/5.jpg',
@@ -258,33 +225,21 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'TunnyAPI',
-    description: 'My Backend API',
+    name: 'Kidan',
+    description: 'An E-commerce website',
     tags: [
       {
-        name: 'NodeJs',
+        name: 'ReactJs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Tailwindcss',
         color: 'blue-text-gradient',
       },
-      {
-        name: 'Express',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'bcrypt',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'mongoDB',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'dotenv',
-        color: 'green-text-gradient',
-      },
     ],
-    image: express,
-    source_code_link: 'https://github.com/tunny17/tunnyAPI',
-    live_link: 'https://github.com/tunny17/tunnyAPI',
+    image: kidan,
+    source_code_link: '#',
+    live_link: 'https://kidanstore.vercel.app/',
   },
   {
     name: 'StuntMedia',
@@ -477,6 +432,35 @@ const projects = [
     image: exerienceSeven,
     source_code_link: 'https://github.com/tunny17/youtube_clone',
     live_link: 'https://tunnymedia.netlify.app/',
+  },
+  {
+    name: 'TunnyAPI',
+    description: 'My Backend API',
+    tags: [
+      {
+        name: 'NodeJs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Express',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'bcrypt',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mongoDB',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'dotenv',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: express,
+    source_code_link: 'https://github.com/tunny17/tunnyAPI',
+    live_link: 'https://github.com/tunny17/tunnyAPI',
   },
 ];
 
