@@ -31,7 +31,7 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: 'https://drive.google.com/file/d/1mPkL9NMYYqLuJzEmxq6YtxqiKsPXGxKZ/view?usp=sharing',
+    id: 'https://drive.google.com/file/d/1DWTHvvBq3hRdCwYiBwzjkfiYaAKDcLuD/view?usp=sharing',
     title: 'Resume',
   },
   {
@@ -116,21 +116,11 @@ const experiences = [
     link: 'https://github.com/rotimi-best/classroomio',
     iconBg: '#383E56',
     points: [
-      'Assisted with the implementation of innovative features, both on the frontend and backend, enhancing the overall functionality and user experience of the system.',
-      "Collaborated closely with the engineering team to identify and rectify existing bugs, ensuring the system's stability and reliability.",
+      'Implemented a multi-translations feature on the platform which aids easy use of the platform amongst other things for users around the world.',
+      'Wrote a script on the backend that translates the English json file into multiple languages to take away the burden of translating for different languages on other contributors.',
+      'Implemented an AI feature which helps generate Outlines, Notes and Questions for students.',
       'Contributed to the enhancement of system performance by optimizing and refining existing code, improving the overall efficiency of both frontend and backend processes.',
       'Actively engaged in collaborative code reviews, providing and receiving constructive feedback to enhance the overall codebase and development process. This process contributed to the continuous improvement of the codebase and the overall development workflow.',
-    ],
-  },
-  {
-    title: 'ReactJs Developer',
-    company_name: 'Kidan',
-    icon: '',
-    link: 'https://kidanstore.vercel.app/',
-    iconBg: '#383E56',
-    points: [
-      'Orchestrated the creation of an aesthetically pleasing and user-friendly frontend website for a small-scale fashion business, seamlessly blending creativity with functionality.',
-      'Implemented a responsive design strategy, ensuring that the website provides an optimal viewing experience across a variety of devices, fostering accessibility and user engagement.',
     ],
   },
   {
@@ -144,6 +134,17 @@ const experiences = [
       'Actively participated in code reviews, debugging and pair programming sessions providing constructive feedback. This process contributed to the continuous improvement of the codebase and the overall development workflow.',
       'Engaged in knowledge-sharing initiatives within the team, facilitating skill development and fostering a collaborative environment conducive to efficient problem-solving and project success.',
       'Assisted with the implementation of features, both on the frontend and backend, enhancing the overall functionality and user experience of the platform.',
+    ],
+  },
+  {
+    title: 'ReactJs Developer',
+    company_name: 'Kidan',
+    icon: '',
+    link: 'https://kidanstore.vercel.app/',
+    iconBg: '#383E56',
+    points: [
+      'Orchestrated the creation of an aesthetically pleasing and user-friendly frontend website for a small-scale fashion business, seamlessly blending creativity with functionality.',
+      'Implemented a responsive design strategy, ensuring that the website provides an optimal viewing experience across a variety of devices, fostering accessibility and user engagement.',
     ],
   },
   {
