@@ -7,7 +7,7 @@ import {
   experienceOne,
   exerienceTwo,
   exerienceThree,
-  exerienceFour,
+  // exerienceFour,
   exerienceFive,
   exerienceSeven,
   exerienceNine,
@@ -31,7 +31,7 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: 'https://drive.google.com/file/d/1DWTHvvBq3hRdCwYiBwzjkfiYaAKDcLuD/view?usp=sharing',
+    id: '/01AdeyemiAdetunji.pdf',
     title: 'Resume',
   },
   {
@@ -148,10 +148,10 @@ const experiences = [
     ],
   },
   {
-    title: 'ReactJs Developer',
+    title: 'Angular Developer',
     company_name: 'Shopmora',
     icon: shopmora,
-    link: 'https://shopmora.netlify.app/',
+    link: '',
     iconBg: '#383E56',
     points: [
       'Meticulously ensured cross-browser compatibility, guaranteeing a consistent and reliable performance for visitors using different web browsers.',
@@ -189,7 +189,7 @@ const experiences = [
     ],
   },
   {
-    title: 'ReactJs Developer',
+    title: 'Angular Developer',
     company_name: 'Ilorin Innovation Hub',
     icon: ilorin,
     link: '',
@@ -263,28 +263,28 @@ const projects = [
     source_code_link: 'https://github.com/tunny17/stuntmedia',
     live_link: 'https://stuntmedia.netlify.app/',
   },
-  {
-    name: 'Shopmora',
-    description: 'A Landing page for a small scale fashion business.',
-    tags: [
-      {
-        name: 'ReactJs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Gsap',
-        color: 'green-text-gradient',
-      },
+  // {
+  //   name: 'Shopmora',
+  //   description: 'A Landing page for a small scale fashion business.',
+  //   tags: [
+  //     {
+  //       name: 'ReactJs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'Gsap',
+  //       color: 'green-text-gradient',
+  //     },
 
-      {
-        name: 'Framer Motion',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: exerienceFour,
-    source_code_link: 'https://github.com/tunny17/Shopmora',
-    live_link: 'https://shopmora-co.netlify.app/',
-  },
+  //     {
+  //       name: 'Framer Motion',
+  //       color: 'green-text-gradient',
+  //     },
+  //   ],
+  //   image: exerienceFour,
+  //   source_code_link: 'https://github.com/tunny17/Shopmora',
+  //   live_link: 'https://shopmora-co.netlify.app/',
+  // },
   {
     name: 'Art Hotel',
     description: 'Web-based platform that allows users to book',
