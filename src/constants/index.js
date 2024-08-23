@@ -148,7 +148,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Angular Developer',
+    title: 'React Developer',
     company_name: 'Shopmora',
     icon: shopmora,
     link: '',
@@ -189,7 +189,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Angular Developer',
+    title: 'React Developer',
     company_name: 'Ilorin Innovation Hub',
     icon: ilorin,
     link: '',
