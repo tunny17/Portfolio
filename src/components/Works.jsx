@@ -98,7 +98,7 @@ const Works = () => {
       </div>
       <div id='projects' />
 
-      <div className='mt-20 flex flex-wrap justify-between gap-y-5'>
+      <div className='mt-20 flex flex-wrap items-start gap-5'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

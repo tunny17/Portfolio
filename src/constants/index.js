@@ -15,6 +15,8 @@ import {
   express,
   kidan,
   c,
+  naijaStars,
+  classroomIO
 } from '/public/assets';
 
 export const navLinks = [
@@ -31,7 +33,7 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: '/01AdeyemiAdetunji.pdf',
+    id: 'https://docs.google.com/document/d/1n_VonaZaG04PEFt2Q2s5HZhx1xl9NUCdwyorhRtERqI/edit?tab=t.0#heading=h.tbwryj3pn6j8',
     title: 'Resume',
   },
   {
@@ -110,15 +112,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Open Source Fullstack Developer (Svelte Js & Node Js)',
+    title: 'Open Source Fullstack Developer (Sveltekit Js & Node Js)',
     company_name: 'ClassroomIO',
     icon: classroomio,
-    link: 'https://github.com/rotimi-best/classroomio',
+    link: 'https://github.com/classroomio/classroomio',
     iconBg: '#383E56',
     points: [
+      'Implemented the landing page design using Sveltekit and Tailwindcss.',
       'Implemented a multi-translations feature on the platform which aids easy use of the platform amongst other things for users around the world.',
       'Wrote a script on the backend that translates the English json file into multiple languages to take away the burden of translating for different languages on other contributors.',
-      'Implemented an AI feature which helps generate Outlines, Notes and Questions for students.',
+      'Implemented AI features which includes generation of Outlines, Notes and Questions for students.',
       'Contributed to the enhancement of system performance by optimizing and refining existing code, improving the overall efficiency of both frontend and backend processes.',
       'Actively engaged in collaborative code reviews, providing and receiving constructive feedback to enhance the overall codebase and development process. This process contributed to the continuous improvement of the codebase and the overall development workflow.',
     ],
@@ -134,58 +137,6 @@ const experiences = [
       'Actively participated in code reviews, debugging and pair programming sessions providing constructive feedback. This process contributed to the continuous improvement of the codebase and the overall development workflow.',
       'Engaged in knowledge-sharing initiatives within the team, facilitating skill development and fostering a collaborative environment conducive to efficient problem-solving and project success.',
       'Assisted with the implementation of features, both on the frontend and backend, enhancing the overall functionality and user experience of the platform.',
-    ],
-  },
-  {
-    title: 'ReactJs Developer',
-    company_name: 'Kidan',
-    icon: '',
-    link: 'https://kidanstore.vercel.app/',
-    iconBg: '#383E56',
-    points: [
-      'Orchestrated the creation of an aesthetically pleasing and user-friendly frontend website for a small-scale fashion business, seamlessly blending creativity with functionality.',
-      'Implemented a responsive design strategy, ensuring that the website provides an optimal viewing experience across a variety of devices, fostering accessibility and user engagement.',
-    ],
-  },
-  {
-    title: 'React Developer',
-    company_name: 'Shopmora',
-    icon: shopmora,
-    link: '',
-    iconBg: '#383E56',
-    points: [
-      'Meticulously ensured cross-browser compatibility, guaranteeing a consistent and reliable performance for visitors using different web browsers.',
-      'Actively participated in collaborative code reviews, engaging with fellow developers to provide and receive constructive feedback. This collaborative effort enhanced the overall quality of the website and promoted a culture of continuous improvement.',
-    ],
-  },
-  {
-    title: 'Backend NodeJs Developer',
-    company_name: 'Personal API',
-    icon: express,
-    link: '',
-    iconBg: '#383E56',
-    points: [
-      'Developed a feature-rich CRUD API using Node.js and Express',
-      'Implemented user authentication and authorization functionalities for secure access to endpoints.',
-      'Successfully integrated MongoDB as the backend database, managing user data efficiently.',
-      'Designed and implemented the user model to ensure data consistency and integrity.',
-      'Implemented robust security measures, including password hashing and JWT-based authentication.',
-      'Ensured secure handling of user data and implemented standardized error responses for enhanced security.',
-    ],
-  },
-  {
-    title: 'C# Developer (.NET)',
-    company_name: 'A Simple Razor WebApp',
-    icon: c,
-    link: '',
-    iconBg: '#383E56',
-    points: [
-      'Developed a web application using C# and Razor Pages in ASP.NET Core',
-      'Utilized the Razor Pages framework for building dynamic web pages, enhancing user interactivity.',
-      'Implemented a JSON-based product data service to dynamically load and display product information on the website.',
-      'Designed a robust Product model class to represent individual product entities, including features like images, URLs, and descriptions.',
-      'Configured the ASP.NET Core application, including HTTPs redirection, static file handling, and routing for a seamless user experience.',
-      'Integrated dependency injection for the JsonFileProductService to facilitate clean and maintainable code.',
     ],
   },
   {
@@ -226,8 +177,46 @@ const testimonials = [
 
 const projects = [
   {
+    name: 'Naija Stars',
+    description: 'A website showing the top open source repositories in Nigeria.',
+    tags: [
+      {
+        name: 'Svelte',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Deno',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Hono',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: naijaStars,
+    source_code_link: 'https://github.com/classroomio/naija-stars',
+    live_link: 'https://naijastars.dev/',
+  },
+    {
+    name: 'ClassroomIO',
+    description: 'A simple landing page from classroomio',
+    tags: [
+      {
+        name: 'Svelte',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Tailwindcss',
+        color: 'blue-text-gradient',
+      }, 
+    ],
+    image: classroomIO,
+    source_code_link: '#',
+    live_link: 'https://classroomio.com/',
+  },
+    {
     name: 'Kidan',
-    description: 'An E-commerce website',
+    description: 'An E-commerce website for a client',
     tags: [
       {
         name: 'ReactJs',
@@ -260,7 +249,7 @@ const projects = [
       },
     ],
     image: stuntMedia,
-    source_code_link: 'https://github.com/tunny17/stuntmedia',
+    source_code_link: '#',
     live_link: 'https://stuntmedia.netlify.app/',
   },
   // {
@@ -339,130 +328,7 @@ const projects = [
     source_code_link: 'https://github.com/tunny17/nft-marketplace',
     live_link: 'https://tunnymarketplace.netlify.app/',
   },
-  {
-    name: 'TunnyStore',
-    description:
-      "A fullstack E-commerce Website created with NextJs and Sanity as it's backend and Paystack for payment gateway.",
-    tags: [
-      {
-        name: 'NextJs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Sanity',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: exerienceTwo,
-    source_code_link: 'https://github.com/tunny17/ecommerce-store',
-    live_link: 'https://tunnystore.netlify.app/',
-  },
-  {
-    name: 'Spaceville',
-    description:
-      'A Simple Landing page for Spaceville Ltd Construction Company that shows ther services being rendered.',
-    tags: [
-      {
-        name: 'ReactJs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'SwiperJs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Video-React',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'React Locomotive Scroll',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: exerienceThree,
-    source_code_link: 'https://github.com/tunny17/construction',
-    live_link: 'https://tunnyconstruction.netlify.app/',
-  },
-  {
-    name: 'Cryptoverse',
-    description:
-      'A Simple Cryptocurrency platform that shows the status, news and links of cryptocurrencies around the world.',
-    tags: [
-      {
-        name: 'ReactJs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Redux',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Axios',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'ChartJs',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: exerienceFive,
-    source_code_link: 'https://github.com/tunny17/cryptoverse',
-    live_link: 'https://tunnycrypto.netlify.app/',
-  },
-  {
-    name: 'Tunnymedia',
-    description: 'A Simple replica of Youtube.',
-    tags: [
-      {
-        name: 'ReactJs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'React Player',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'Axios',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'Material UI',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: exerienceSeven,
-    source_code_link: 'https://github.com/tunny17/youtube_clone',
-    live_link: 'https://tunnymedia.netlify.app/',
-  },
-  {
-    name: 'TunnyAPI',
-    description: 'My Backend API',
-    tags: [
-      {
-        name: 'NodeJs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Express',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'bcrypt',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'mongoDB',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'dotenv',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: express,
-    source_code_link: 'https://github.com/tunny17/tunnyAPI',
-    live_link: 'https://github.com/tunny17/tunnyAPI',
-  },
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

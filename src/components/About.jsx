@@ -22,8 +22,8 @@ const About = () => {
         of experience of creating engaging and user-friendly web experiences. I
         possess a strong foundation in frontend technologies such as HTML, CSS
         (SASS, Tailwind CSS, Bootstrap etc.), JavaScript (and it’s frameworks &
-        libraries like Svelte Js, React Js, Next.js, Node Js, Express, MongoDB)
-        & C#. My goal is and has always been to combine my technical expertise
+        libraries like Svelte Js, React Js, Next.js, Node Js, Deno, Express, MongoDB)
+        . My goal is and has always been to combine my technical expertise
         with a creative approach to deliver seamless and visually appealing
         websites and applications.
         <br /> I'm a quick learner and I collaborate closely with
