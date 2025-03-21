@@ -33,7 +33,7 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: 'https://docs.google.com/document/d/1n_VonaZaG04PEFt2Q2s5HZhx1xl9NUCdwyorhRtERqI/edit?tab=t.0#heading=h.tbwryj3pn6j8',
+    id: 'https://docs.google.com/document/d/1r39NBPCASTJ80zoVjpoRO3eMOk4B1Tr7k2kxUrnRltw/edit?usp=sharing',
     title: 'Resume',
   },
   {
